@@ -68,7 +68,7 @@ body header .header-btn a {
 body .content {
   width: 1366px;
   height: 665px;
-  background-image: url(../images/dog_main.jpg);
+  background-image: url(https://github.com/tsubasadesu/pet/blob/main/dog_main.jpg?raw=true);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -164,7 +164,7 @@ body .wrap .wrap-txt p {
 body .main {
   width: 1366px;
   height: 1150px;
-  background-image: url(../images/snowfall.jpg);
+  background-image: url(https://github.com/tsubasadesu/pet/blob/main/snowfall.jpg?raw=true);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -281,7 +281,7 @@ body .info .info-img img {
 body footer {
   text-align: center;
   padding-top: 72px;
-  background: url(../images/cat7.jpg);
+  background: url(https://github.com/tsubasadesu/pet/blob/main/cat7.jpg?raw=true);
   height: 480px;
   background-repeat: no-repeat;
   background-position: center center;
