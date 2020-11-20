@@ -1,0 +1,349 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+body {
+  width: 1366px;
+  height: 3976px;
+}
+
+body header {
+  width: 1366px;
+  height: 100px;
+}
+
+body header .header-logo {
+  display: inline-block;
+  vertical-align: top;
+  margin: 35px 0 35px 115px;
+}
+
+body header .header-logo h1 {
+  font-size: 40px;
+  color: #48bac2;
+}
+
+body header .header-list {
+  display: inline-block;
+  vertical-align: top;
+  margin: 40px 0 0 260px;
+}
+
+body header .header-list ul {
+  display: inline-block;
+}
+
+body header .header-list ul li {
+  display: inline-block;
+}
+
+body header .header-list ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 2;
+  color: #48bac2;
+  margin-left: 40px;
+}
+
+body header .header-btn {
+  display: inline-block;
+  vertical-align: top;
+  margin: 35px 0 0 32px;
+}
+
+body header .header-btn a {
+  display: block;
+  background-color: #48bac2;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 2;
+  color: white;
+  padding: 5px 15px;
+}
+
+body .content {
+  width: 1366px;
+  height: 665px;
+  background-image: url(../images/dog_main.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: block;
+  position: relative;
+}
+
+body .content .content-txt {
+  text-align: center;
+  width: 700px;
+  margin-left: 325px;
+  padding-top: 230px;
+  color: #ffffff;
+  position: absolute;
+}
+
+body .content .content-txt h2 {
+  font-size: 44px;
+}
+
+body .content .content-txt p {
+  font-size: 22px;
+}
+
+body .content::before {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* 自由に位置指定 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+body .wrap {
+  height: 500px;
+  width: 1366px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  background: #faeef0;
+}
+
+body .wrap .wrap-area {
+  width: 410px;
+  height: 410px;
+  position: relative;
+}
+
+body .wrap .img {
+  width: 410px;
+  height: 410px;
+}
+
+body .wrap .img img {
+  width: 410px;
+  height: 410px;
+  margin-top: 80px;
+}
+
+body .wrap .second-img {
+  width: 420px;
+  height: 410px;
+  margin: 78px 0 0 536px;
+}
+
+body .wrap .second-img img {
+  width: 420px;
+  height: 410px;
+}
+
+body .wrap .wrap-txt {
+  width: 800px;
+  padding-top: 70px;
+  height: 500px;
+  position: absolute;
+  left: 280px;
+}
+
+body .wrap .wrap-txt h3 {
+  font-size: 40px;
+  color: #48bac2;
+  padding-bottom: 55px;
+}
+
+body .wrap .wrap-txt p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+body .main {
+  width: 1366px;
+  height: 1150px;
+  background-image: url(../images/snowfall.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: -10px;
+  display: block;
+}
+
+body .main .main-square {
+  width: 1366px;
+  height: 1150px;
+  background: rgba(250, 247, 247, 0.884);
+}
+
+body .main .main-square .wrappers {
+  width: 1366px;
+  height: 1150px;
+}
+
+body .main .main-square .wrappers .wrapper {
+  display: inline-block;
+  width: 360px;
+  text-align: center;
+  margin: 0 0 0 70px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+body .main .main-square .wrappers .wrapper img {
+  width: 360px;
+  height: 240px;
+}
+
+body .main .main-square .wrappers .wrapper p {
+  line-height: 2;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+body .main .main-square .wrappers .wrapper a {
+  text-decoration: none;
+  margin-top: 40px;
+  display: block;
+  color: white;
+  background: #ff7385;
+  width: 180px;
+  height: 40px;
+  padding-top: 20px;
+  margin-left: 65px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+body .info {
+  width: 1366px;
+  height: 480px;
+}
+
+body .info .info-txt {
+  width: 681px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+body .info .info-txt h4 {
+  font-size: 28px;
+  color: #48bac2;
+  margin: 90px 0 0 111px;
+}
+
+body .info .info-txt .inner-txt1 {
+  display: inline-block;
+  font-size: 18px;
+  margin: 8px  0 111px;
+}
+
+body .info .info-txt .inner-txt1 ul {
+  border-right: 5px solid #5a5a5a;
+  margin: px;
+  display: block;
+  margin-left: 111px;
+}
+
+body .info .info-txt .inner-txt1 ul li {
+  list-style: none;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+body .info .info-txt .inner-txt2 {
+  display: inline-block;
+  font-size: 18px;
+  color: #5a5a5a;
+}
+
+body .info .info-txt .inner-txt2 li {
+  list-style: none;
+  margin: 40px 0 0 20px;
+}
+
+body .info .info-img {
+  width: 680px;
+  height: 480px;
+  display: inline-block;
+}
+
+body .info .info-img img {
+  width: 680px;
+  height: 480px;
+  display: inline-block;
+}
+
+body footer {
+  text-align: center;
+  padding-top: 72px;
+  background: url(../images/cat7.jpg);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: block;
+  position: relative;
+  color: white;
+}
+
+body footer .footer-wrap {
+  position: absolute;
+  margin: 70px 0 0 560px;
+}
+
+body footer .footer-wrap h5 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+body footer .footer-wrap p {
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 17px;
+}
+
+body footer .footer-wrap a {
+  text-decoration: none;
+  color: black;
+  margin: 37px 0 55px 35px;
+  display: block;
+  font-size: 18px;
+  background: #ff7385;
+  width: 230px;
+  padding: 22px 0;
+  color: white;
+}
+
+body footer .footer-wrap li {
+  list-style: none;
+  display: inline-block;
+  font-size: 14px;
+  border-right: 2px solid #fdf9f9;
+  margin-bottom: 40px;
+}
+
+body footer .footer-wrap li:last-child {
+  border: none;
+}
+
+body footer .footer-wrap small {
+  font-size: 12px;
+  line-height: 2;
+}
+
+body footer::before {
+  background-color: rgba(53, 51, 51, 0.4);
+  /* 自由に位置指定 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+/*# sourceMappingURL=style.css.map */
