@@ -90,7 +90,8 @@ body .content .content-txt h2 {
 
 body .content .content-txt p {
   font-size: 22px;
-   text-align: left;
+  text-align: center;
+  text-align: left;
 }
 
 body .content::before {
