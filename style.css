@@ -29,7 +29,7 @@ body header .header-logo h1 {
 body header .header-list {
   display: inline-block;
   vertical-align: top;
-  margin: 40px 0 0 260px;
+  margin: 40px 0 0 30%;
 }
 
 body header .header-list ul {
@@ -79,7 +79,7 @@ body .content {
 body .content .content-txt {
   text-align: center;
   width: 700px;
-  margin-left: 325px;
+ 
   padding-top: 230px;
   color: #ffffff;
   position: absolute;
@@ -87,10 +87,12 @@ body .content .content-txt {
 
 body .content .content-txt h2 {
   font-size: 44px;
+  text-align: center;
 }
 
 body .content .content-txt p {
   font-size: 22px;
+   text-align: left;
 }
 
 body .content::before {
@@ -110,12 +112,11 @@ body .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
   background: #faeef0;
 }
 
 body .wrap .wrap-area {
-  width: 410px;
+  width: 30%;
   height: 410px;
   position: relative;
 }
@@ -132,33 +133,30 @@ body .wrap .img img {
 }
 
 body .wrap .second-img {
-  width: 420px;
+  width: 410px;
   height: 410px;
-  margin: 78px 0 0 536px;
+  margin: 78px 0 0 5%;
 }
 
 body .wrap .second-img img {
-  width: 420px;
+  width: 100%;
   height: 410px;
-}
-
-body .wrap .wrap-txt {
-  width: 800px;
-  padding-top: 70px;
-  height: 500px;
-  position: absolute;
-  left: 280px;
 }
 
 body .wrap .wrap-txt h3 {
   font-size: 40px;
   color: #48bac2;
   padding-bottom: 55px;
+  text-align: center;
+  padding-top: 3%;
 }
 
 body .wrap .wrap-txt p {
   font-size: 18px;
   line-height: 2;
+  width: 600px;
+  margin-right: 10%;
+  margin-left: 5%;
 }
 
 body .main {
@@ -191,6 +189,7 @@ body .main .main-square .wrappers .wrapper {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-top: 50px;
+   margin-left: 7%;
 }
 
 body .main .main-square .wrappers .wrapper img {
